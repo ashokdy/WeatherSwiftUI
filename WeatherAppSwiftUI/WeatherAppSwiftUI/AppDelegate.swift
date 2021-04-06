@@ -66,7 +66,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         let content = UNMutableNotificationContent()
         content.title = WeatherConstant.Strings.notificationTitle
-        content.body = String(format: "%@", WeatherConstant.Strings.notificationBody, weatherData?.current.weather.first?.weatherDescription ?? "")
+        let contentBody = String(format: WeatherConstant.Strings.notificationBody, weatherData?.current.weather.first?.weatherDescription ?? "")
+        content.body = contentBody
         content.sound = UNNotificationSound.default
         
         guard let imageURL = UIImage(named: WeatherConstant.Image.apple) else { return }
