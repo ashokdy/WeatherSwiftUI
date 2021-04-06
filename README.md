@@ -19,7 +19,7 @@ If any problem persists,
 
 This project is developed in **SwiftUI** using MVVM pattern, API client with POP(Protocol Oriented Programming) used for making server calls are native and using the URLSession. Used today's best practices like generics, Codable, Extensions, MVVM, Computed properties and also OOPS concepts for ENDPoint class, which ever new client is required it can be easily created by overriding the required properties.
 
-Constants are created for the application for the easy localization or any content change. SwiftUI views are used to display the results, details and few settings actions, Computed properties are used in the model which will give the leverage to keep the codable keys as it is and access the user required data with ease. **Reachabiliy** class for network change **LocationManager** class for the location request and authorization change observation.
+Constants are created for the application for the easy localization or any content change. SwiftUI views are used to display the results, details and few settings actions, Computed properties are used in the model which will give the leverage to keep the codable keys as it is and access the user required data with ease. **Reachabiliy** class for network change **LocationManager** class for the location request and authorization change observation. **BGAPIHelpers** are added just to show the other way with swift client to use
 
 **Unit test cases** are being added for the possible places and the code coverage has been done as much as possible, ofcourse the 100% coverage is not possible in the real world but tried to cover as much as possible due to the time constraint.
 
