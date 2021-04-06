@@ -10,6 +10,7 @@ This can be easily insatlled in 2 ways
 2. Download the project directly
 Once downloaded or cloned one can directly run the application by selecting any available simulator. 
 If any problem persists, 
+    Please Simulate location if it won’t auto update in simulator
     please install pods and try
     if still issue deintegrate pod and install and try again
     issues still exist? please raise it as issue
